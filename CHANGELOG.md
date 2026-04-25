@@ -13,6 +13,7 @@ Daftar perubahan signifikan pada project Rent Office.
 - Sinkronisasi konfigurasi .env dengan standar project de_roemah_makan.
 - Pembuatan Model, Migration, dan Controller untuk City, OfficeSpace, OfficeSpacePhotos, OfficeSpaceBenefits, dan BookingTransaction dengan struktur kolom lengkap sesuai ERD.
 - Eksekusi migrasi database awal (Schema Build).
+- Inisialisasi Git repository dan First Commit.
 
 ---
 Format dokumen ini mengikuti standar Keep a Changelog.

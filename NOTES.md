@@ -4,12 +4,11 @@ Dokumen ini mencatat langkah-langkah pengembangan, perubahan struktur, dan penam
 
 ## Riwayat Aktivitas
 
-| Tanggal | Aktivitas | Deskripsi | Status |
-| :--- | :--- | :--- | :--- |
-| 2026-04-25 | Inisialisasi Project | Instalasi Laravel menggunakan Docker Composer. | Selesai |
-| 2026-04-25 | Konfigurasi Docker | Setup Dockerfile (PHP 8.4) dan docker-compose.yml (MySQL, phpMyAdmin) mengikuti pola de_roemah_makan. | Selesai |
-| 2026-04-25 | Perancangan Database | Melengkapi struktur kolom pada semua migrasi sesuai ERD. | Selesai |
-| 2026-04-25 | Migrasi Database | Eksekusi php artisan migrate di dalam container app. | Selesai |
+- 2026-04-25: Inisialisasi Project - Instalasi Laravel menggunakan Docker Composer - Selesai
+- 2026-04-25: Konfigurasi Docker - Setup Dockerfile (PHP 8.4) dan docker-compose.yml (MySQL, phpMyAdmin) - Selesai
+- 2026-04-25: Perancangan Database - Melengkapi struktur kolom pada semua migrasi sesuai ERD - Selesai
+- 2026-04-25: Migrasi Database - Eksekusi php artisan migrate di dalam container app - Selesai
+- 2026-04-25: Inisialisasi Git - Git init dan commit pertama (Initial Setup & DB Schema) - Selesai
 
 ## Daftar Entitas Database
 
@@ -23,7 +22,8 @@ Dokumen ini mencatat langkah-langkah pengembangan, perubahan struktur, dan penam
 
 - [x] Melengkapi struktur kolom pada setiap file migrasi sesuai ERD.
 - [ ] Menentukan relasi antar Model (Eloquent Relationships).
-- [x] Eksekusi migrasi database (php artisan migrate).
+- [x] Eksekusi migrasi database awal (Schema Build).
+- [x] Inisialisasi Git repository dan First Commit.
 - [ ] Pembuatan Seeder untuk data awal (City & OfficeSpace).
 - [ ] Implementasi sistem autentikasi dan Filament PHP (jika diperlukan).
 
